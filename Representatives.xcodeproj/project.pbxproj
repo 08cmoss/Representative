@@ -14,6 +14,11 @@
 		01AD26151BE171D9009BF4D2 /* RepresentativesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD26141BE171D9009BF4D2 /* RepresentativesTests.swift */; };
 		01AD26201BE171D9009BF4D2 /* RepresentativesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD261F1BE171D9009BF4D2 /* RepresentativesUITests.swift */; };
 		01AD262E1BE17215009BF4D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AD262D1BE17215009BF4D2 /* SearchViewController.swift */; };
+		7451CC031C7673ED00AF6C37 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451CC021C7673ED00AF6C37 /* Representative.swift */; };
+		7451CC051C7679C700AF6C37 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451CC041C7679C700AF6C37 /* NetworkController.swift */; };
+		7451CC071C76808A00AF6C37 /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451CC061C76808A00AF6C37 /* RepresentativeController.swift */; };
+		7451CC091C76870300AF6C37 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451CC081C76870300AF6C37 /* ResultsTableViewController.swift */; };
+		7451CC0B1C76873100AF6C37 /* RepresentativeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451CC0A1C76873100AF6C37 /* RepresentativeDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		01AD261F1BE171D9009BF4D2 /* RepresentativesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativesUITests.swift; sourceTree = "<group>"; };
 		01AD26211BE171D9009BF4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01AD262D1BE17215009BF4D2 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7451CC021C7673ED00AF6C37 /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		7451CC041C7679C700AF6C37 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		7451CC061C76808A00AF6C37 /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		7451CC081C76870300AF6C37 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		7451CC0A1C76873100AF6C37 /* RepresentativeDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				01AD25FF1BE171D9009BF4D2 /* AppDelegate.swift */,
+				7451CC021C7673ED00AF6C37 /* Representative.swift */,
 				01AD262D1BE17215009BF4D2 /* SearchViewController.swift */,
+				7451CC041C7679C700AF6C37 /* NetworkController.swift */,
+				7451CC061C76808A00AF6C37 /* RepresentativeController.swift */,
 				01AD26031BE171D9009BF4D2 /* Main.storyboard */,
+				7451CC0A1C76873100AF6C37 /* RepresentativeDetailTableViewController.swift */,
+				7451CC081C76870300AF6C37 /* ResultsTableViewController.swift */,
 				01AD26061BE171D9009BF4D2 /* Assets.xcassets */,
 				01AD26081BE171D9009BF4D2 /* LaunchScreen.storyboard */,
 				01AD260B1BE171D9009BF4D2 /* Info.plist */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7451CC091C76870300AF6C37 /* ResultsTableViewController.swift in Sources */,
+				7451CC071C76808A00AF6C37 /* RepresentativeController.swift in Sources */,
+				7451CC051C7679C700AF6C37 /* NetworkController.swift in Sources */,
 				01AD262E1BE17215009BF4D2 /* SearchViewController.swift in Sources */,
+				7451CC0B1C76873100AF6C37 /* RepresentativeDetailTableViewController.swift in Sources */,
 				01AD26001BE171D9009BF4D2 /* AppDelegate.swift in Sources */,
+				7451CC031C7673ED00AF6C37 /* Representative.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
